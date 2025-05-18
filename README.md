@@ -1,14 +1,19 @@
-# Image to Text Converter
+🖼️ Image to Text Converter
+A lightweight Python script that extracts machine-readable text from images using Optical Character Recognition (OCR).
 
-This Python script converts text from images into machine-readable text using Optical Character Recognition (OCR) techniques. It utilizes Pytesseract for OCR functionality and PIL (Python Imaging Library) for image handling.
+🔍 Key Features
+✅ Image to Text Conversion
+Seamlessly converts text embedded in images into editable, searchable text.
 
-## Features
+🖼️ Multi-Format Support
+Compatible with common image formats including JPEG, PNG, and GIF.
 
-- **Image to Text Conversion:** Converts text embedded within images into plain text output.
-- **Supports Various Formats:** Works with popular image formats such as JPEG, PNG, and GIF.
-- **Easy-to-Use:** Simple Python script with straightforward setup and execution.
+🚀 User-Friendly
+Clean, simple Python script with minimal setup and easy execution.
 
-## Libraries Used
+📦 Dependencies
+Pytesseract
+A Python wrapper for Google's Tesseract-OCR Engine. Leverages advanced machine learning algorithms to extract text from images.
 
-- **Pytesseract:** Python wrapper for Google's Tesseract-OCR Engine. It extracts text from images and utilizes machine learning algorithms to perform OCR
-- **PIL (Python Imaging Library):** Adds support for opening, manipulating, and saving many different image file formats. It is used to open and preprocess images before OCR.
+PIL (Python Imaging Library)
+Used for image processing operations like opening and preprocessing images before OCR. Often accessed via the Pillow library.
